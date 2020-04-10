@@ -4,10 +4,10 @@ let myImage = document.querySelector('img');
 
 myImage.onclick = function() {
 	let mySrc = myImage.getAttribute('src');
-	if(mySrc === 'C:/Users/User/Documents/web-projects/my-first-site/images/gothic.jfif') {
-		myImage.setAttribute ('src','C:/Users/User/Documents/web-projects/my-first-site/images/gothic-2-night-of-the-raven.jfif');
+	if(mySrc === '\images\Gothic_2_dragon_slayer_1280x1024.jpg') {
+		myImage.setAttribute ('src','\images\Gothic_2_paladin_1280x1024.jpg');
 	} else {
-		myImage.setAttribute ('src','C:/Users/User/Documents/web-projects/my-first-site/images/gothic.jfif');
+		myImage.setAttribute ('src','\images\Gothic_2_dragon_slayer_1280x1024.jpg');
 	}
 }
 
